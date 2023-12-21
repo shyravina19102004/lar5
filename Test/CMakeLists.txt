@@ -1,3 +1,5 @@
+set(target test_lab6)
+
 file(GLOB hdrs "*.h*") #Добавляем в переменную hdrs все файлы с расширением .h
 file(GLOB srcs "*.cpp") #Добавляем в переменную srcs все файлы с расширением .cpp
 
