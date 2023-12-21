@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8) #Проверка версии CMake.
 
 set(PROJECT_NAME Lab4_Queue) #Создаем обычную локальную переменную с именем проекта
-project(${ PROJECT_NAME }) # Название проекта
+project(${PROJECT_NAME}) # Название проекта
 
 set(libqueue LibQueue) #Переменная с именем библиотеки
 set(main Main)
