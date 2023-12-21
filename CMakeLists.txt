@@ -18,8 +18,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE})
 
-include_directories(${ CMAKE_CURRENT_SOURCE_DIR } / LibGTest)
-include_directories(${ CMAKE_CURRENT_SOURCE_DIR } / LibQueue) #Добавляем директорию "${CMAKE_CURRENT_SOURCE_DIR}/vectorlib" в дополняемые каталоги включаемых файлов
+include_directories(${ CMAKE_CURRENT_SOURCE_DIR }/LibGTest
+${ CMAKE_CURRENT_SOURCE_DIR }/LibQueue) #Добавляем директорию "${CMAKE_CURRENT_SOURCE_DIR}/vectorlib" в дополняемые каталоги включаемых файлов
 #${ CMAKE_CURRENT_SOURCE_DIR } - стандартная переменная с адресом рабочей директории
 
 #add_subdirectory(Vector) #Добавляем директорию с под - CMakeList - ом, и выполняем под - CMakeList
